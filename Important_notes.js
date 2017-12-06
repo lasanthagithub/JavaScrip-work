@@ -12,6 +12,20 @@ alert("Name is " + name)
 
 alert(name + 7) // Jade7
 
+var location = window.location; // string
+
+var stutus = false;
+var windowStatus = window.closed;
+
+// objects data types
+
+var topic = document.getElementById('myId');
+
+// array
+
+var links = document.getElementsByClassName('a'); // note Elements: return ana array of elements.
+
+document.write(links[0]) // Get elements by index
 
 // Operatos and expressions
 
