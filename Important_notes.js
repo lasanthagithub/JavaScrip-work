@@ -25,7 +25,9 @@ var topic = document.getElementById('myId');
 
 var links = document.getElementsByClassName('a'); // note Elements: return ana array of elements.
 
-document.write(links[0]) // Get elements by index
+document.write(links[0]) // Get elements by index. 0 based
+
+
 
 // Operatos and expressions
 
