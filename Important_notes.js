@@ -4,6 +4,8 @@ var name;
 
 name = "Jade";
 
+// output methods
+
 document.write(name);
 
 prompt("What is your name")
@@ -11,6 +13,12 @@ prompt("What is your name")
 alert("Name is " + name)
 
 alert(name + 7) // Jade7
+
+innerHTML = "my message"// fill
+
+console.log   // fill
+
+
 
 var location = window.location; // string
 
@@ -26,7 +34,6 @@ var topic = document.getElementById('myId');
 var links = document.getElementsByClassName('a'); // note Elements: return ana array of elements.
 
 document.write(links[0]) // Get elements by index. 0 based
-
 
 
 // Operatos and expressions
